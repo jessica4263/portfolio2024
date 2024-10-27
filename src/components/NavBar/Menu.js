@@ -1,17 +1,17 @@
 import styles from "./Menu.module.css";
 
-function Menu({ menuOpen }) {
+function Menu({ menuOpen, sourceText }) {
     return (
         <div
             className={`${styles.menuContainer} ${menuOpen ? styles.open : ""}`}
         >
             <ul className={styles.menu_link}>
-                <li className={styles.link}><a href="#aboutme" >About me</a></li>
-                <li className={styles.link}><a href="#software-skills" >Software Skills</a></li>
-                <li className={styles.link}><a href="#soft-skills" >Soft Skills</a></li>
-                <li className={styles.link}><a href="#projects" >Projects</a></li>
-                <li className={styles.link}><a href="#experience" >Experience</a></li>
-                <li className={styles.link}><a href="#contact" >Contact</a></li>
+                <li className={styles.link}><a href="#aboutme" >{sourceText.menu.aboutme}</a></li>
+                <li className={styles.link}><a href="#software-skills" >{sourceText.menu.software_skills}</a></li>
+                <li className={styles.link}><a href="#soft-skills" >{sourceText.menu.soft_skills}</a></li>
+                <li className={styles.link}><a href="#projects" >{sourceText.menu.projects}</a></li>
+                <li className={styles.link}><a href="#experience" >{sourceText.menu.experience}</a></li>
+                <li className={styles.link}><a href="#contact" >{sourceText.menu.contact}</a></li>
             </ul>
         </div>
     );

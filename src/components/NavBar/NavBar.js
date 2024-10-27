@@ -4,9 +4,8 @@ import styles from "./NavBar.module.css";
 import {ReactComponent as MenuIcon} from "../../assets/menu-svgrepo-com.svg"
 import {ReactComponent as CloseIcon} from "../../assets/close-svgrepo-com.svg"
 
-function NavBar() {
+function NavBar({languageEn, setLanguageEn, sourceText}) {
     const [menuOpen, setMenuOpen] = useState(false);
-    const [languageEn, setLanguageEn] = useState(true);
     
     const handleLanguageToggle = () => {
         setLanguageEn(!languageEn)
@@ -37,7 +36,7 @@ function NavBar() {
                     {menuOpen ? <CloseIcon className={styles.icon+ " " + styles.close}/> : <MenuIcon className={styles.icon}/>}
                 </button>
             </div>
-            <Menu menuOpen={menuOpen} />
+            <Menu menuOpen={menuOpen} sourceText={sourceText} />
         </>
     );
 }

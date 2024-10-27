@@ -1,0 +1,69 @@
+{
+    "intro": {
+        "greet": "Hi!",
+        "name": "i'm Jessica",
+        "about": "About me",
+        "about_text": "Hello there! I’m a software developer transitioning from over 7 years of experience in architecture. My journey into software development began with the Harvard CS50 course, and I’m currently deepening my skills in frontend and fullstack development through the Fullstack Engineer course at Codecademy.",
+        "more_p1": "My architectural background has equipped me with a strong design sensibility and robust analytical skills. I have collaborated on complex projects within large teams, which has helped me develop effective communication and teamwork abilities.",
+        "more_p2": "I'm really enjoying my journey in software development and look forward to using my design experience and technical skills to contribute meaningfully to exciting software projects!",
+        "see_more": "See more...",
+        "see_less": "See less...",
+        "contact": "Contact",
+        "email": "Email:",
+        "github": "Github:",
+        "phone": "Phone:",
+        "location": "Location:"
+    },
+    "menu": {
+        "aboutme": "About me",
+        "software_skills": "Software Skills",
+        "soft_skills": "Soft Skills",
+        "projects": "Projects",
+        "experience": "Experience",
+        "contact": "Contact"
+    },
+    "software": {
+        "general": "General",
+        "architecture": "Architecture"
+    },
+    "soft": {
+        "skill1": "Problem-solving",
+        "skill2": "Creativity",
+        "skill3": "Teamwork",
+        "skill4": "Self-learning",
+        "skill5": "Communication",
+        "skill6": "Time management",
+        "skill7": "Critical thinking",
+        "skill8": "Persistence"
+    },
+    "projects": {
+        "description": "Description",
+        "description1": "This project is a music search application that utilizes the Spotify API to allow users to search for tracks, display albums, and play music.The app enables users to find their favorite songs, play them, and manage their playlists. ",
+        "description2":"Task Manager is a web app where you can create and manage task lists.After signing up or logging in, you'll see your lists on the homepage, where you can add tasks, change list colors, and edit or delete things easily.Tasks are saved to a database, and you can check off completed ones. They'll stay checked even if you log out or refresh the browser. There's also an error page for any mistakes.",
+        "description3": "This eBay clone project allows users to search for products, add them to their cart, and complete purchases. The main purpose of the project is to demonstrate the use of Redux for state management, ensuring a smooth user experience as they navigate the application. It leverages public APIs to fetch product data, showcasing how to integrate external resources into a web application.",
+        "tech": "Technologies used"
+    },
+    "experience": {
+        "title": "Experience",
+        "software": "Software Development",
+        "architecture": "Architecture",
+        "present": "Present",
+        "timeline1":"Completed a Frontend Development course and am currently enrolled in a Fullstack Development course on Codecademy",
+        "timeline2":"Completed the CS50 course (Introduction to Computer Science) online from Harvard University",
+        "timeline3":"Working as a freelance architect and founding StudioDezimeter. Creation of the branding image, website, and content for the company’s social media.",
+        "timeline4":"Employed as an Architect and as a student at Plus3Architekten in Regensburg. Involved in various projects, including hospital renovations, structural improvements, design, and planning. LPH 01-08.",
+        "timeline5":"Master of Arts in Architecture at Ostbayerische Technische Hochschule Regensburg.",
+        "timeline6":"Working student at 'conceptk' architectural firm in Regensburg. Analysis of German school facilities, including comparisons and proposals for changes. LPH 01-02.",
+        "timeline7":"Assistance as a working student at Hueber Architekten in Regensburg. Creation of 3D modeling and visualizations for various projects. LPH 03.",
+        "timeline8":"Freelance architect in Tijuana, Mexico. Implementation of projects such as spa room redesigns, restaurant interior renovations, and design for a medical office building. LPH 01-08.",
+        "timeline9":"Worked as an architect and then as a project manager at the construction company 'Galacon' in Tijuana, Mexico. Contributed to various residential, commercial, and industrial projects, including design, planning, 3D modeling, and rendering, as well as interior design and building expansions. LPH 01-05.",
+        "timeline10":"Internship at 'Amorphica Design' architectural firm in Tijuana, Mexico. Worked on a residential project in La Paz, Mexico, including 3D modeling and rendering. LPH 03.",
+        "timeline11":"Erasmus exchange program at the University of Innsbruck in Tyrol, Austria.",
+        "timeline12":"Integrated Architecture Studies (Diploma) from Universidad Autónoma de Baja California in Tijuana, Mexico."
+    },
+    "contact": {
+        "title": "Contact me!",
+        "location": "Location:",
+        "phone": "Phone:"
+    }
+}

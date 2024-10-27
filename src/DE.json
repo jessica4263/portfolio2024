@@ -1,0 +1,70 @@
+{
+    "intro": {
+        "greet": "Hallo!",
+        "name": "ich bin Jessica",
+        "about": "Über mich",
+        "about_text": "Ich bin Softwareentwicklerin und habe über 7 Jahre Erfahrung in der Architektur. Meine Reise in die Softwareentwicklung begann mit dem Harvard CS50-Kurs und zurzeit vertiefe ich meine Fähigkeiten in der Frontend- und Fullstack-Entwicklung mit dem Fullstack Engineer-Kurs bei Codecademy.",
+        "more_p1": "Mein Werdegang als Architektin hat mich mit einem ausgeprägten Sinn für Design und soliden analytischen Fähigkeiten ausgestattet. Ich habe an komplexen Projekten in großen Teams gearbeitet, was mir geholfen hat, effektive Kommunikations- und Teamarbeitfähigkeiten zu entwickeln.",
+        "more_p2": "Ich habe Spaß an der Softwareentwicklung und freue mich darauf, meine Erfahrung im Bereich Design und meine technischen Fähigkeiten einzusetzen, um einen sinnvollen Beitrag zu spannenden Softwareprojekten zu leisten!",
+        "see_more": "Mehr sehen...",
+        "see_less": "Weniger sehen...",
+        "contact": "Kontakt",
+        "email": "E-Mail:",
+        "github": "Github:",
+        "phone": "Telefon:",
+        "location": "Standort:"
+    },
+    "menu": {
+        "aboutme": "Über mich",
+        "software_skills": "Software Skills",
+        "soft_skills": "Soft Skills",
+        "projects": "Projekte",
+        "experience": "Erfahrung",
+        "contact": "Kontakt"
+    },
+    "software": {
+        "general": "Allgemein",
+        "architecture": "Architektur"
+    },
+    "soft": {
+        "skill1": "Problemlösung",
+        "skill2": "Kreativität",
+        "skill3": "Teamarbeit",
+        "skill4": "Selbstlernen",
+        "skill5": "Kommunikation",
+        "skill6": "Zeitmanagement",
+        "skill7": "Kritisches Denken",
+        "skill8": "Beharrlichkeit"
+    },
+    "projects": {
+        "description": "Beschreibung",
+        "description1": "Dieses Projekt ist eine Anwendung zur Suche von Musik, das Spotifys API nutzt. Mit der App können Sie ihre Lieblingssongs finden, sie abspielen, Playlists anlegen und verwalten.",
+        "description2": "Task Manager ist eine Web-App, in der Sie Aufgabenlisten erstellen und verwalten können. Nach der Anmeldung oder dem Einloggen sehen Sie Ihre Listen auf der Startseite. Sie können Aufgaben zu Ihren Listen hinzufügen und die Farben der Listen ändern, bearbeiten oder löschen. Aufgaben lassen sich als erledigt markieren und bleiben auch abgehakt, wenn Sie sich abmelden oder die App neu laden. Bei ungültigen Requests durch Benutzereingaben (z.B. falsche Login-daten) wird eine maßgeschneiderte Fehlerseite angezeigt.",
+        "description3": "Dieses eBay-Clone-Projekt ermöglicht es Benutzern, nach Produkten zu suchen, sie in Ihren Warenkorb zu legen und Käufe abzuschließen. Das Hauptziel des Projekts ist es, die Verwendung von Redux für das State-Management zu demonstrieren, um ein reibungsloses Benutzererlebnis beim Navigieren in der Anwendung zu gewährleisten. Es nutzt öffentliche APIs, um Produktdaten abzurufen, und zeigt, wie externe Ressourcen in eine Webanwendung integriert werden können.",
+        "tech": "Verwendete Technologien"
+    },
+    "experience": {
+        "title": "Erfahrung",
+        "software": "Softwareentwicklung",
+        "architecture": "Architektur",
+        "present": "Heute",
+        "timeline1": "Codecademy: Frontend-Engineer-Kurs abgeschlossen, aktuell in Arbeit: Fullstack-Engineer.",
+        "timeline2": "Harvard: CS50-Kurs (Introduction to computer science) abgeschlossen.",
+        "timeline3": "Arbeit als freiberufliche Architektin und Gründung von StudioDezimeter. Erstellung des Branding-Images, der Webseite sowie des Inhalts für die sozialen Medien des Unternehmens.",
+        "timeline4": "Angestellt als Architektin und als Studentin bei Plus3Architekten in Regensburg. Mitarbeit an verschiedenen Projekten, darunter Krankenhausrenovierungen, Strukturverbesserungen, Entwurf und Planung. LPH 01-08.",
+        "timeline5": "Master of Arts in Architektur an der Ostbayerischen Technischen Hochschule Regensburg.",
+        "timeline6": "Werkstudentin bei 'conceptk' Architekturbüro in Regensburg. Analyse von deutschen Schulanlagen, inklusive Vergleichen und Vorschlägen für Veränderungen. LPH 01-LPH02",
+        "timeline7": "Unterstützung als Werkstudentin bei Hueber Architekten in Regensburg. Erstellung von 3D-Modellen und Visualisierungen für verschiedene Projekte. LPH 03.",
+        "timeline8": "Freiberufliche Architektin in Tijuana, Mexiko. Realisierung von Projekten wie Spa-Raum-Umgestaltung, Restaurant-Innenrenovierung und Entwurf für ein medizinisches Bürogebäude. LHP 01-08",
+        "timeline9": "Arbeit als Architektin und als Projektleiterin bei der Baufirma 'Galacon' in Tijuana, Mexiko. Mitarbeit an verschiedenen Wohn-, Gewerbe- und Industrieprojekten, einschließlich Design, Planung, 3D-Modellierung und Rendering sowie Innenarchitektur und Erweiterungen von Gebäuden. LPH 01-05.",
+        "timeline10": "Praktikum bei 'Amorphica Design' Architekturbüro in Tijuana, Mexiko. Mitarbeit an einem Wohnprojekt in La Paz, Mexiko, inklusive 3D-Modellierung und Rendering. LPH 03",
+        "timeline11": "Erasmus-Austauschprogramm an der Universität Innsbruck in Tirol, Österreich.",
+        "timeline12": "Architektur Integriertes Studium (Diplom) an der Universidad Autónoma de Baja California in Tijuana, Mexiko"
+    },
+    "contact": {
+        "title": "Kontakt",
+        "location": "Standort:",
+        "phone": "Telefon:",
+        "email": "E-Mail:"
+    }
+}

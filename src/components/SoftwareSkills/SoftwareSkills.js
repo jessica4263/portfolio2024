@@ -1,7 +1,7 @@
 import styles from "./SoftwareSkills.module.css";
 import {ReactComponent as Star} from "../../assets/star.svg";
 
-function SoftwareSkills() {
+function SoftwareSkills({sourceText}) {
     return (
         <div className={styles.borderSkills}>
             <div style={{ width: 'auto', height:'auto'}}>
@@ -10,7 +10,7 @@ function SoftwareSkills() {
             </div>
             <div className={styles.skillsContainer}>
                 <div className={styles.topicContainer}>
-                    <h4>General</h4>
+                    <h4>{sourceText.software.general}</h4>
                     <ul className={styles.indivSkillsContainer}>
                         <li>Git</li>
                         <li>Visual Studio</li>
@@ -57,7 +57,7 @@ function SoftwareSkills() {
                     </ul>
                 </div>
                 <div className={styles.topicContainer}>
-                    <h4>Architecture</h4>
+                    <h4>{sourceText.software.architecture}</h4>
                     <ul className={styles.indivSkillsContainer}>
                         <li>ArchiCAD</li>
                         <li>Lumion</li>
@@ -69,14 +69,14 @@ function SoftwareSkills() {
             <Star className={styles.star3} />
             <h2 id="soft-skills" className={styles.title}>Soft Skills</h2>
             <ul className={styles.softSkillsContainer}>
-                <li>Problem-solving</li>
-                <li>Creativity</li>
-                <li>Teamwork</li>
-                <li>Self-learning</li>
-                <li>Communication</li>
-                <li>Time management</li>
-                <li>Critical thinking</li>
-                <li>Persistence</li>
+                <li>{sourceText.soft.skill1}</li>
+                <li>{sourceText.soft.skill2}</li>
+                <li>{sourceText.soft.skill3}</li>
+                <li>{sourceText.soft.skill4}</li>
+                <li>{sourceText.soft.skill5}</li>
+                <li>{sourceText.soft.skill6}</li>
+                <li>{sourceText.soft.skill7}</li>
+                <li>{sourceText.soft.skill8}</li>
             </ul>
         </div>
     );
