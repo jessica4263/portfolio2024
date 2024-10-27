@@ -1,0 +1,183 @@
+.borderIntro {
+    border: 3px solid black;
+    border-radius: 0 0 10rem 10rem;
+    padding: 10% 15% 5% 15%;
+}
+
+.containerIntro {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    opacity: 0;
+    animation: fadeInAnimation 1s ease-in forwards;
+}
+
+.containerInformation {
+    width: 100%;
+    min-width: 12rem;
+    padding-right: 6rem;
+}
+
+.containerInformation h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: .3rem;
+    font-family: "Cutive Mono", monospace;
+	letter-spacing: -1px;
+    
+}
+
+.imgContainer {
+    width: 100%;
+    align-content: right;
+}
+
+.profileImg {
+    height: auto;
+    min-width: 12rem;
+    float: right;
+    opacity: .9;
+}
+
+h1 {
+    font-size: 10rem;
+    opacity: 0;
+    animation: fadeInAnimation 3s ease-in forwards .2s;
+}
+
+h2 {
+    padding-bottom: 2rem !important;
+}
+
+.imJess {
+    font-size: 4rem;
+    text-align: right;
+    opacity: 0;
+    animation: fadeInAnimation 4s ease-in forwards 1s;
+    padding-bottom:.7rem !important;
+}
+
+
+
+.star1 {
+    position: relative;
+    top:-35rem;
+    left: 30rem;
+    width:6rem;
+    height:auto;
+    opacity: 0;
+    cursor: none;
+    fill: hsl(12, 100%, 55%);
+    animation: fadeInAnimation 1s ease-in forwards 2s, spin 3s infinite;
+}
+
+.seeMore {
+    font-family: ;
+    font-size: 1.1rem;
+    cursor: pointer;
+    color: hsl(296, 75%, 55%);
+    padding: 0.2rem;
+    background-color: transparent;
+    border: none;
+
+}
+
+.seeMore:hover {
+    color:  hsl(296, 42%, 50%);
+    font-weight: bold;
+}
+
+.link {
+    color: hsl(296, 75%, 55%);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.link:hover {
+    color: hsl(296, 42%, 50%);
+    font-weight: bold;
+}
+
+p span {
+    font-weight: bold;
+    margin-right: .2rem;
+}
+
+
+@keyframes fadeInAnimation {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform:rotate(0deg);
+    }
+    50% {
+        transform:rotate(360deg);
+    }
+}
+
+@media screen and (max-width: 320px) {
+    h1 {
+      font-size: 5rem;
+    }
+
+    .imJess {
+        font-size: 2rem;
+        padding-bottom: 1rem !important;
+    }
+
+    .borderIntro {
+        border-radius: 0 0 3rem 3rem;	
+        padding: 1rem 2.5rem 0 ;
+    }
+
+    .containerIntro {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        flex-wrap: wrap;
+    }
+
+    .containerInformation {
+        width:100%;
+        padding:0;
+    }
+
+    p{
+        font-size: .9rem;
+    }
+
+    .seeMore {
+        font-size:1rem;
+    }
+
+    .profileImg {
+        width: 100% !important;
+        margin: 2rem 0 0;
+    }
+
+    .star1 {
+        top: -310px;
+        left: 190px;
+        width:4rem;
+    }
+
+    .imgContainer {
+        width: 100%;
+        height: auto;
+    }
+    
+    .profileImg {
+        width: 100%;
+        height: auto;
+        float: none;
+    }
+  }

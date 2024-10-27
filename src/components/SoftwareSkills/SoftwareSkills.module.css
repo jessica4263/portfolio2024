@@ -1,0 +1,121 @@
+.borderSkills {
+    padding: 3% 5% 5% 5%;
+}
+
+.skillsContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: .5rem .5rem 1rem .5rem;
+}
+
+.title {
+    font-size: 3rem;
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+
+.topicContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    padding: 0 2rem;
+    min-width: 12rem;
+    flex-wrap: wrap;
+}
+
+.topicContainer h4 {
+    font-weight: normal;
+    font-size: 1.5rem;
+
+}
+
+.indivSkillsContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: .5rem;
+}
+
+.indivSkillsContainer li{
+    background-color: hsla(296, 65%, 80%, 50%); 
+    padding: .5rem 1rem;
+    border-radius: 1rem;
+    margin: 0.5rem;
+}
+
+.softSkillsContainer {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: .5rem 8rem;
+
+}
+
+.softSkillsContainer li {
+    background-color: white;
+    border: 2px solid hsl(296, 65%, 80%);
+    padding: .5rem 5.5rem;
+    border-radius: 1rem;
+    margin: .5rem;
+}
+
+.star2 {
+    position: relative;
+    top: 1rem;
+    left: 32rem;
+    width:3rem;
+    height:auto;
+    cursor: none;
+    fill: hsl(12, 100%, 55%);
+    animation: fadeInAnimation 1s ease-in forwards 2s, spin 3s infinite;
+}
+
+.star3 {
+    position: relative;
+    top: 1rem;
+    left: 56rem;
+    width:2rem;
+    height:auto;
+    cursor: none;
+    fill: hsl(12, 100%, 55%);
+    animation: fadeInAnimation 1s ease-in forwards 2s, spin 3s infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform:rotate(0deg);
+    }
+    50% {
+        transform:rotate(360deg);
+    }
+}
+
+@media screen and (max-width: 320px) {
+        .title {
+            font-size: 2rem;
+        }
+
+        .topicContainer {
+            width: 100%;
+            padding: 0 0 1rem 0;
+        }
+
+        .softSkillsContainer li {
+            padding: .5rem 3rem;
+        }
+
+        .star2 {
+            top: 0rem;
+            left: .1rem;
+            width:1.5rem;
+        }
+        
+        .star3 {
+            top: 0px;
+            left: 14rem;
+            width:2rem;
+        }
+}

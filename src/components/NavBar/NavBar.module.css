@@ -1,0 +1,123 @@
+.navbarContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 3rem 0 3rem;
+    opacity: 0;
+    animation: fadeInAnimation 1s ease-in forwards;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: transparent;
+    min-width: 12rem;
+}
+
+.languageContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.languageContainer div{
+    font-family: "Cutive Mono", monospace;
+	letter-spacing: -1px;
+}
+
+.language_btn {
+    border: 1.2px solid black;
+    padding: 10% 30%;
+    cursor: pointer;
+    transition: all 1s linear;
+}
+
+.language_btn:hover {
+    opacity: 0.7;
+}
+
+.english_btn {
+    border-radius: 10px 0px 0px 10px;
+}
+
+.deutsch_btn {
+    border-radius: 0px 10px 10px 0;
+}
+
+.selected_btn {
+    background-color: black !important;
+    color: white !important;
+}
+
+.menu_btn {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: color .5s linear;
+}
+
+.menu_btn:hover {
+    color: hsl(296, 65%, 80%); 
+}
+
+.icon {
+    width: 1.5rem;
+    height: auto;
+    fill: currentColor; 
+    transition: fill .5s linear; 
+}
+
+.close {
+    width: 1rem !important;
+}
+
+@keyframes fadeInAnimation {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .navbarContainer {
+        padding: 1.5rem 0rem;
+        width: auto !important;
+        position: sticky;
+        min-width: auto;
+    }
+
+    .languageContainer {
+        width: 1.5rem;
+        height: auto;
+        font-size: 0.8rem;
+    }
+
+    .language_btn {
+        padding: 0% 40%;
+        align-content: center;
+    }
+
+    .language_btn {
+        width: 2rem;
+    }
+
+    .english_btn {
+        border-radius: 1rem 0 0 1rem;
+    }
+    
+    .deutsch_btn {
+        border-radius: 0 1rem 1rem 0;
+    }
+
+    .menu_btn {
+        width: 1rem;
+    }
+
+    .icon {
+        width: 1.2rem;
+    }
+
+    .close {
+        width: 1.2rem !important;
+    }
+}

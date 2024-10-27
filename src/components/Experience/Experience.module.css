@@ -1,0 +1,126 @@
+.experienceBorder {
+    padding: 2% 10% 7% 10%;
+}
+
+.experienceBorder h2 {
+    font-size: 3rem;
+    padding-bottom: 3.5rem  !important;
+    text-align: center;
+}
+
+.experienceCont {
+    display: flex;
+    width: 100%;
+    min-width: 12rem;
+
+}
+
+.sectionContainer {
+    width: 100%;
+    border-right: 2px solid;
+    display: flex;
+    justify-content: space-between;
+}
+
+.circle {
+    position: relative;
+    right: -1.1rem;
+    top: 1rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px black solid;
+}
+
+.textContainer {
+    width: 100%;
+    padding-top: 1.7rem;
+}
+
+.textContainer p{
+    padding: 0 1.5rem  2rem 10rem;
+}
+
+.expTitle {
+    height: 2rem;
+    font-size: 1.3rem;
+    background-color: hsla(296, 65%, 80%, 40%); 
+    width:65%;
+    padding: 1.5rem;
+    border-radius: 1.7rem;
+}
+
+h5 {
+    font-weight: bold;
+    color: hsl(296, 65%, 60%);
+    padding: 0 0  .2rem 10rem;
+    font-size: 1.1rem;
+
+}
+
+hr {
+    color: black;
+    border: .2px black solid;
+}
+
+.star5 {
+    position: relative;
+    top: 150px;
+    left: 350px;
+    width:4rem;
+    height:auto;
+    cursor: none;
+    fill: hsl(12, 100%, 55%);
+    animation: fadeInAnimation 1s ease-in forwards 2s, spin 3s infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform:rotate(0deg);
+    }
+    50% {
+        transform:rotate(360deg);
+    }
+}
+
+@media screen and (max-width: 320px) { 
+    .experienceBorder h2 {
+        font-size: 2rem;
+        padding-bottom: 2rem !important;
+    }
+
+    .experienceCont {
+        flex-wrap: wrap;
+    }
+
+    .expTitle {
+        font-size: 1.1rem;
+        width: 100%;
+        height: auto;
+    }
+
+    .circle {
+        position: absolute;
+        opacity: 0;
+    }
+
+    .sectionContainer {
+        width: 100%;
+        border-right: none;
+    }
+
+    .textContainer p{
+        padding: 0 1.5rem  2rem 4rem;
+    }
+
+    h5 {
+        padding: 0 0  .2rem 4rem;
+    }
+
+    .star5 {
+        top: 5rem;
+        left: 14rem;
+        width:1.5rem;
+    }
+}

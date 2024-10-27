@@ -1,0 +1,64 @@
+.link {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.link:hover {
+    color: hsl(297, 30%, 20%);
+    font-weight: bold;
+}
+
+.contactContainer {
+    background-color: hsla(296, 65%, 80%, 85%);
+    padding: 0% 10% 4% 10%;
+    text-align: center;
+    border-radius: 10rem 10rem 0 0;
+
+}
+
+.contactContainer h3{
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 1rem;
+    padding: 0;
+}
+
+p span {
+    font-weight: bold;
+    margin-right: .2rem;
+}
+
+.star6 {
+    position: relative;
+    top: -20px;
+    right: -500px;
+    width:6rem;
+    height:auto;
+    cursor: none;
+    fill: hsl(12, 100%, 55%);
+    animation: fadeInAnimation 1s ease-in forwards 2s, spin 3s infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform:rotate(0deg);
+    }
+    50% {
+        transform:rotate(360deg);
+    }
+}
+
+@media screen and (max-width: 320px) { 
+    .contactContainer {
+        border-radius: 3rem 3rem 0 0;
+        padding: 0% 10% 30% 10%;
+    }
+
+    .star6 {
+        top: 1rem;
+        right: -7rem;
+        width:4rem;
+    }
+}
