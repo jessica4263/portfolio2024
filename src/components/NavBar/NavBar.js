@@ -21,13 +21,13 @@ function NavBar({languageEn, setLanguageEn, sourceText}) {
                 <div className={styles.languageContainer}>
                     <div
                         onClick={handleLanguageToggle}
-                        className={`${styles.language_btn} ${styles.english_btn} ${!languageEn ? styles.selected_btn : ''}`}
+                        className={`${styles.language_btn} ${styles.english_btn} ${languageEn ? styles.selected_btn : ''}`}
                     >
                         EN
                     </div>
                     <div 
                         onClick={handleLanguageToggle}
-                        className={`${styles.language_btn} ${styles.deutsch_btn} ${languageEn ? styles.selected_btn : ''}`}
+                        className={`${styles.language_btn} ${styles.deutsch_btn} ${!languageEn ? styles.selected_btn : ''}`}
                     >
                         DE
                     </div>

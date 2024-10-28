@@ -10,7 +10,7 @@ import textDE from "./DE.json"
 
 function App() {
   const [languageEn, setLanguageEn] = useState(true);
-  const sourceText = languageEn? textEN : textDE;
+  const sourceText = languageEn ? textEN : textDE;
 
   return (
     <>

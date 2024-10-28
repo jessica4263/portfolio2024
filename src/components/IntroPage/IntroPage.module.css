@@ -23,8 +23,8 @@
     font-weight: bold;
     margin-bottom: .3rem;
     font-family: "Cutive Mono", monospace;
-	letter-spacing: -1px;
-    
+    letter-spacing: -1px;
+
 }
 
 .imgContainer {
@@ -54,17 +54,17 @@ h2 {
     text-align: right;
     opacity: 0;
     animation: fadeInAnimation 4s ease-in forwards 1s;
-    padding-bottom:.7rem !important;
+    padding-bottom: .7rem !important;
 }
 
 
 
 .star1 {
     position: relative;
-    top:-35rem;
+    top: -35rem;
     left: 30rem;
-    width:6rem;
-    height:auto;
+    width: 6rem;
+    height: auto;
     opacity: 0;
     cursor: none;
     fill: hsl(12, 100%, 55%);
@@ -83,7 +83,7 @@ h2 {
 }
 
 .seeMore:hover {
-    color:  hsl(296, 42%, 50%);
+    color: hsl(296, 42%, 50%);
     font-weight: bold;
 }
 
@@ -116,16 +116,17 @@ p span {
 
 @keyframes spin {
     0% {
-        transform:rotate(0deg);
+        transform: rotate(0deg);
     }
+
     50% {
-        transform:rotate(360deg);
+        transform: rotate(360deg);
     }
 }
 
 @media screen and (max-width: 320px) {
     h1 {
-      font-size: 5rem;
+        font-size: 5rem;
     }
 
     .imJess {
@@ -134,8 +135,8 @@ p span {
     }
 
     .borderIntro {
-        border-radius: 0 0 3rem 3rem;	
-        padding: 1rem 2.5rem 0 ;
+        border-radius: 0 0 3rem 3rem;
+        padding: 1rem 2.5rem 0;
     }
 
     .containerIntro {
@@ -147,16 +148,16 @@ p span {
     }
 
     .containerInformation {
-        width:100%;
-        padding:0;
+        width: 100%;
+        padding: 0;
     }
 
-    p{
+    p {
         font-size: .9rem;
     }
 
     .seeMore {
-        font-size:1rem;
+        font-size: 1rem;
     }
 
     .profileImg {
@@ -167,17 +168,17 @@ p span {
     .star1 {
         top: -310px;
         left: 190px;
-        width:4rem;
+        width: 4rem;
     }
 
     .imgContainer {
         width: 100%;
         height: auto;
     }
-    
+
     .profileImg {
         width: 100%;
         height: auto;
         float: none;
     }
-  }
+}
