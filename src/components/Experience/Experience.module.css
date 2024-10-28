@@ -84,7 +84,7 @@ hr {
     }
 }
 
-@media screen and (max-width: 320px) { 
+@media screen and (max-width: 480px) { 
     .experienceBorder h2 {
         font-size: 2rem;
         padding-bottom: 2rem !important;

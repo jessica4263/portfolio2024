@@ -43,7 +43,7 @@
     font-weight: bold;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
     .menuContainer {
         position: absolute;
         width: 70%;

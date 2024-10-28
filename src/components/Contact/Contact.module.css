@@ -50,7 +50,7 @@ p span {
     }
 }
 
-@media screen and (max-width: 320px) { 
+@media screen and (max-width:480px)  { 
     .contactContainer {
         border-radius: 3rem 3rem 0 0;
         padding: 0% 10% 30% 10%;

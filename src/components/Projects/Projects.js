@@ -12,7 +12,7 @@ function Projects({sourceText}) {
             <div className={styles.projectsContainer}>
                 <div className={styles.project}>
                     <h3>Myplaylist</h3>
-                    <a target="_blank" href="https://myplaylist-apispotify.netlify.app/"><img src={myplaylist} /></a>
+                    <a target="_blank" href="https://myplaylist-api-spotify.netlify.app/"><img src={myplaylist} /></a>
                     <h4>{sourceText.projects.description}</h4>
                     <p>
                     {sourceText.projects.description1}
